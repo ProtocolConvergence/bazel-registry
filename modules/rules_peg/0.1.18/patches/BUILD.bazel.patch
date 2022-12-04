@@ -1,0 +1,33 @@
+--- /dev/null
++++ BUILD.bazel
+@@ -0,0 +1,30 @@
++cc_library(
++    name = "peg_lib",
++    srcs = [
++        "src/compile.c",
++        "src/tree.c",
++    ],
++    hdrs = [
++        "src/peg.peg-c",
++        "src/tree.h",
++        "src/version.h",
++    ],
++)
++
++cc_binary(
++    name = "peg",
++    srcs = [
++        "src/peg.c",
++    ],
++    deps = [":peg_lib"],
++    visibility = ["//visibility:public"],
++)
++
++cc_binary(
++    name = "leg",
++    srcs = [
++        "src/leg.c",
++    ],
++    deps = [":peg_lib"],
++    visibility = ["//visibility:public"],
++)

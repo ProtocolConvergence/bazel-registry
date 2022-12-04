@@ -2,8 +2,8 @@
   "integrity": "sha256-04P3CcrsmZS/ePrJvLUaeKG61c9hc+oeuT9LalTPWso=",
   "patch_strip": 0,
   "patches": {
-    "build_bazel.patch": "sha256-oI/B2CoWQrCRBFT8JaG2WPmMBkvwv40mULAlwxE8zPQ=",
-    "module_bazel.patch": "sha256-T58yrmy4PzMQKnKBnVT9ChYy9tfHBlaki8Z2BYLIxuA="
+    "BUILD.bazel.patch": "sha256-7RrYPR2/8TscDimV5yCCWLECniNcgsO9XLgNQpvknpA=",
+    "MODULE.bazel.patch": "sha256-L7fCsZEf38ijELq/sMdfBjw04LkxDvS8X8trFiiSARE="
   },
   "strip_prefix": "libDDD-c0b25d19332826fb7f3edebc5465a732a252b84e",
   "url": "https://github.com/lip6/libDDD/archive/c0b25d19332826fb7f3edebc5465a732a252b84e.tar.gz"

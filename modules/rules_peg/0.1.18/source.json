@@ -1,0 +1,13 @@
+{
+  "integrity": "sha256-qiWy4QzGc6Cm8gEUsNxc/GziIdHCV4Uv5BKPB4LLtYU=",
+  "patch_strip": 0,
+  "patches": {
+    "BUILD.bazel.patch": "sha256-KRgrcqbYzsyXJACfVZtIlRdLktaBwk5F0fpQm51b4oY=",
+    "MODULE.bazel.patch": "sha256-26exXAkhk0NqOoK8Vxp5G2krLPCGPKLUc9/8EHD9ZIo=",
+    "peg_BUILD.bazel.patch": "sha256-qzqF1qurdbGEe2VGe25GXjlIzTz/MNSuv4TP1ijMIJA=",
+    "peg_defs.bzl.patch": "sha256-TxFfsEdCVaWKQJJOA6hQo3wJqsFNPqKsCBCx5KEtkqs="
+  },
+  "strip_prefix": "peg-0.1.18",
+  "url": "https://github.com/gpakosz/peg/archive/refs/tags/0.1.18.tar.gz"
+}
+
