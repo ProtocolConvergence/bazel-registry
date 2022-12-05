@@ -3,7 +3,7 @@
   "patch_strip": 0,
   "patches": {
     "BUILD.bazel.patch": "sha256-7RrYPR2/8TscDimV5yCCWLECniNcgsO9XLgNQpvknpA=",
-    "MODULE.bazel.patch": "sha256-L7fCsZEf38ijELq/sMdfBjw04LkxDvS8X8trFiiSARE="
+    "MODULE.bazel.patch": "sha256-c1GaTJs+AWBFUEzzGYniCDDMAgZtf5o6YaQ5guR44lY="
   },
   "strip_prefix": "libDDD-c0b25d19332826fb7f3edebc5465a732a252b84e",
   "url": "https://github.com/lip6/libDDD/archive/c0b25d19332826fb7f3edebc5465a732a252b84e.tar.gz"

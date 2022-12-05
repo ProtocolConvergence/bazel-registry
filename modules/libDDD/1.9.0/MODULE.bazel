@@ -1,5 +1,5 @@
 module(
     name = "libDDD",
-    version = "20221018.0",
+    version = "1.9.0",
     compatibility_level = 1,
 )
