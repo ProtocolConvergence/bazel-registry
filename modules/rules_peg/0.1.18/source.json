@@ -1,5 +1,5 @@
 {
-  "integrity": "sha256-qiWy4QzGc6Cm8gEUsNxc/GziIdHCV4Uv5BKPB4LLtYU=",
+  "integrity": "sha256-1QMaPM5ZLqbQAqSZa+gWV3X9q/Tzk4V9/hYB8CB4qK4=",
   "patch_strip": 0,
   "patches": {
     "BUILD.bazel.patch": "sha256-KRgrcqbYzsyXJACfVZtIlRdLktaBwk5F0fpQm51b4oY=",
@@ -8,6 +8,6 @@
     "peg_defs.bzl.patch": "sha256-TxFfsEdCVaWKQJJOA6hQo3wJqsFNPqKsCBCx5KEtkqs="
   },
   "strip_prefix": "peg-0.1.18",
-  "url": "https://github.com/gpakosz/peg/archive/refs/tags/0.1.18.tar.gz"
+  "url": "https://github.com/gpakosz/peg/releases/download/0.1.18/peg-0.1.18.tar.gz"
 }
 
